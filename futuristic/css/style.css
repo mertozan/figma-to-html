@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Zen Dots", cursive;
+  display: flex;
+  flex-direction: row;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(0, 61, 102),
+    rgb(0, 31, 51),
+    rgb(0, 0, 0)
+  );
+  margin: 0;
+  padding: 0;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+p {
+  color: #618eff;
+}
+
+.right-main {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 55px;
+  position: relative;
+}
+
+.svg {
+  position: absolute;
+  left: -30px;
+  top: 15px;
+}
+
+.left-main {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.logo-design1 {
+  width: 40px;
+  height: 8px;
+  background: #f7aad4;
+}
+
+.logo-design2 {
+  width: 20px;
+  height: 8px;
+  background: #f7aad4;
+}
+
+.logo-text {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  color: #00d7f5;
+}
+
+.logo-texts {
+  display: flex;
+  color: #f7aad4;
+  position: relative;
+  width: 1000px;
+  height: 700px;
+  margin-left: 100px;
+  flex-direction: column;
+}
+
+.text-item1,
+.text-item2 {
+  position: absolute;
+}
+
+.text-item1 {
+  font-size: 288px;
+  z-index: 1;
+  position: absolute;
+  top: 90px;
+}
+
+.text-item2 {
+  font-size: 96px;
+  z-index: 3;
+  top: 400px;
+  left: 510px;
+}
+
+.big-logo {
+  position: absolute;
+  left: 220px;
+  z-index: 2;
+}
+
+.button {
+  position: absolute;
+  bottom: 0;
+  align-self: flex-end;
+}
+
+.button button {
+  padding: 25px 85px;
+  color: #f7aad4;
+  background-color: #618eff;
+  font-family: "Zen Dots";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.endp {
+  position: absolute;
+  bottom: 5px;
+  left: 50px;
+}
+
+.img2 {
+  align-self: center;
+  margin-top: 150px;
+}
+
+.dot {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 20px;
+  right: 80px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #f7aad4;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.for-mobil {
+  display: none;
+}
+
+@media (max-width: 1500px) {
+  .right-main,
+  .left-main {
+    display: none;
+  }
+
+  .for-mobil {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+
+  .for-mobil p {
+    font-size: 50px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+}
