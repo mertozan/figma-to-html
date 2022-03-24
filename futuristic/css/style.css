@@ -112,6 +112,7 @@ p {
   position: absolute;
   left: 220px;
   z-index: 2;
+  animation: rotate 50s  infinite alternate forwards;
 }
 
 .button {
@@ -140,6 +141,7 @@ p {
 .img2 {
   align-self: center;
   margin-top: 150px;
+  animation: rotate 50s  infinite alternate forwards;
 }
 
 .dot {
@@ -168,6 +170,16 @@ p {
 .for-mobil {
   display: none;
 }
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
 @media (max-width: 1500px) {
   .right-main,
