@@ -10,6 +10,7 @@ body {
   flex-direction: row;
   max-height: 100vh;
   overflow: hidden;
+  height: 100vh;
 }
 
 .left-side {
@@ -102,6 +103,10 @@ body {
   z-index: 2;
 }
 
+.image {
+  z-index: 2;
+}
+
 .tap-here {
   position: absolute;
   font-family: "Poppins";
@@ -113,7 +118,46 @@ body {
   bottom: 100px;
 }
 
+.container{
+  height: 100vh;
+  width: 100%;
+}
+
 .tap-here a {
   text-decoration: none;
   color: black;
+}
+
+.for-mobil {
+  display: none;
+}
+
+.mobil-background{
+  display:none;
+}
+
+@media (max-width: 1450px) {
+  .container{
+    display: none;
+  }
+  .for-mobil {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+  .for-mobil p {
+    font-size: 50px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .mobil-background{
+    display: flex;
+  }
+
+
+
 }
