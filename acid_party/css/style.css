@@ -1,0 +1,119 @@
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.left-side {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.dots {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.logo {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  display: flex;
+  margin: 15px 0px 0px 30px;
+}
+
+.dot {
+  border: 1px solid #000000;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin: 30px 0px 0px 30px;
+}
+
+.texts {
+  width: 90%;
+  height: 100vh;
+  justify-content: space-around;
+  position: absolute;
+  left: 200px;
+  top: -40px;
+  padding-left: 30px;
+}
+
+.text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 190px;
+  line-height: 175px;
+  display: flex;
+  flex-direction: column;
+}
+
+.arrow1,
+.arrow2 {
+  position: absolute;
+}
+
+.arrow2 {
+  left: 30px;
+  bottom: 70px;
+}
+
+.arrow1 {
+  top: 50%;
+  right: 50px;
+}
+
+.line1,
+.line2,
+.statue {
+  position: absolute;
+}
+
+.line1 {
+  left: 300px;
+  z-index: 0;
+}
+
+.line2 {
+  right: 0px;
+}
+
+.statue {
+  left: 440px;
+  bottom: 0;
+  height: 650px;
+  z-index: 2;
+}
+
+.tap-here {
+  position: absolute;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 54px;
+  right: 50px;
+  bottom: 100px;
+}
+
+.tap-here a {
+  text-decoration: none;
+  color: black;
+}
