@@ -11,7 +11,6 @@ body {
   color: white;
 }
 
-
 a {
   text-decoration: none;
   color: white;
@@ -36,7 +35,7 @@ ul {
   position: relative;
 }
 
-.underline{
+.underline {
   text-decoration: underline;
 }
 
@@ -175,7 +174,7 @@ ul {
 
 .first-cards .p1 {
   font-size: 36px;
-  margin:25px;
+  margin: 25px;
 }
 
 .first-cards .p2 {
@@ -223,7 +222,6 @@ ul {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  
 }
 
 .card1 {
@@ -238,5 +236,134 @@ ul {
   background-color: #2278d4;
 }
 
+.section2 {
+  display: flex;
+  height: 640.98px;
+  margin-top: 120px;
+}
 
+.section2 img {
+  width: 100%;
+  height: 100%;
+}
 
+.section2 p {
+  color: black;
+  margin: 0;
+  padding: 15px 50px;
+}
+
+.section2-content {
+  background-color: white;
+  border-radius: 300px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.section2 .p1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+}
+
+.section2 .p2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  opacity: 0.6;
+}
+
+.section2 .p3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.6;
+}
+
+.section2-img,
+.section2-content {
+  flex: 1;
+}
+
+.section3 {
+  display: flex;
+  padding: 200px 0;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.quarters {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 30px;
+}
+
+.q-icons { 
+  height: 70px;
+  width: 70px;
+  border-radius: 200px 200px 200px 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: black;
+}
+
+.quarters-iconsdec {
+  display: flex;
+  flex-direction: row;
+}
+
+.q-icon {
+  height: 12px;
+  width: 12px;
+  background-color: #22a75d;
+  border-radius: 50%;
+}
+
+.q-icon-year {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+.q-year {
+  display: flex;
+  align-items: flex-end;
+}
+
+.section3 li {
+  list-style-type: decimal-leading-zero;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  opacity: 0.7;
+  padding: 8px 0px;
+}
+
+.section3 ol {
+  list-style:none;
+  counter-reset: my-awesome-counter;
+}
+
+.section3 ol li{
+  counter-increment: my-awesome-counter;
+}
+
+.section3 ol li::before{
+  content:"0" counter(my-awesome-counter) ". ";
+  color: red;
+  font-weight: bold;
+}
