@@ -304,7 +304,7 @@ ul {
   gap: 30px;
 }
 
-.q-icons { 
+.q-icons {
   height: 70px;
   width: 70px;
   border-radius: 200px 200px 200px 90px;
@@ -354,16 +354,16 @@ ul {
 }
 
 .section3 ol {
-  list-style:none;
+  list-style: none;
   counter-reset: my-awesome-counter;
 }
 
-.section3 ol li{
+.section3 ol li {
   counter-increment: my-awesome-counter;
 }
 
-.section3 ol li::before{
-  content:"0" counter(my-awesome-counter) ". ";
+.section3 ol li::before {
+  content: "0" counter(my-awesome-counter) ". ";
   color: red;
   font-weight: bold;
 }
