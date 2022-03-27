@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+:root{
+  --primary-color:red;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -11,6 +15,7 @@ body {
   max-height: 100vh;
   overflow: hidden;
   height: 100vh;
+  color:var(--primary-color)
 }
 
 .left-side {
@@ -65,6 +70,25 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.text:nth-child(3){
+  position: absolute;
+}
+
+.text:nth-child(4){
+  margin-top: 175px;
+}
+
+.transparent{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color:rgba(234, 166, 15, 1);
+  color: white;
+}
+
+.purple{
+  -webkit-text-stroke-color:rgba(234, 166, 15, 1);
+}
+
 
 .arrow1,
 .arrow2 {
