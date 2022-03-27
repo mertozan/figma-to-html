@@ -121,6 +121,7 @@ ul {
   line-height: 24px;
   background: linear-gradient(0deg, #2b3087 0%, #00b4ec 81.99%), #ffd100;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0;
 }
