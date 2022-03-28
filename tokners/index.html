@@ -8,19 +8,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter&display-flex=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="header">
-      <div class="logo">
+    <section class="header display-flex">
+      <div class="logo display-flex">
         <img src="./img/logo.png" alt="" />
         <h1>Tokners</h1>
       </div>
-      <div class="nav-middle">
-        <ul class="nav-middle-items">
+      <div class="nav-middle display-flex">
+        <ul class="nav-middle-items display-flex">
           <li><a href="#">Our Team</a></li>
           <li><a href="#">Tokens</a></li>
           <li><a href="#">Connect wallet</a></li>
@@ -28,168 +28,184 @@
         </ul>
       </div>
 
-      <div class="nav-right">
+      <div class="nav-right display-flex">
         <a href="#">Sign In</a>
         <button class="sign-up">Sign Up</button>
       </div>
-    </div>
+    </section>
 
-    <div class="container">
-      <div class="first-section">
-        <div class="first-section-content">
-          <p class="first-section-content-p1">At Tokners we are</p>
-          <p class="first-section-content-p2">
-            Reimagining social media through the power of the blockchain.
-          </p>
-          <p class="first-section-content-p3">
-            We are creating social media 3.0 with influencers, celebrities and
-            creators being able to launch their own digital currency by simply
-            creating a profile with media content posted as Non fungible Tokens
-            that can be owned and traded on the Tknrs network
-          </p>
-          <button>Learn More</button>
+    <section class="first-section display-flex fd-column container">
+      <div class="first-section-content display-flex fd-column">
+        <p class="first-section-content-p1">At Tokners we are</p>
+        <h2 class="title">
+          Reimagining social media through the power of the blockchain.
+        </h2>
+        <p class="first-section-content-p3">
+          We are creating social media 3.0 with influencers, celebrities and
+          creators being able to launch their own digital currency by simply
+          creating a profile with media content posted as Non fungible Tokens
+          that can be owned and traded on the Tknrs network
+        </p>
+        <button>Learn More</button>
+      </div>
+      <div class="first-image">
+        <img src="./img/phones.png" height="800" alt="" />
+      </div>
+    </section>
+
+    <section class="first-cards display-flex container">
+      <div class="card1 display-flex fd-column">
+        <div
+          class="card1-icon display-flex"
+          style="box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25)"
+        >
+          <img src="./img/firstcardsicon1.svg" alt="" />
         </div>
-        <div class="first-image">
-          <img src="./img/phones.png" height="800" alt="" />
+
+        <p class="p1">
+          For <span class="underline" style="color: #22a75d"> Creators </span>
+        </p>
+        <p class="p2">
+          Creators can gain independence through a decentralised digital
+          currency system that is dependent on growing and engaging with the
+          community and also their star power. They own 10-15% of the total
+          value of the tokens minted.
+        </p>
+        <p class="p3">
+          <a href="#">Learn More 🡪</a>
+        </p>
+      </div>
+
+      <div class="card2 display-flex fd-column">
+        <div
+          class="card2-icon display-flex"
+          style="box-shadow: 0px 15px 25px rgba(34, 120, 212, 0.25)"
+        >
+          <img src="./img/firstcardsicon2.svg" alt="" />
+        </div>
+
+        <p class="p1">
+          For <span class="underline" style="color: #2278d4"> Holders </span>
+        </p>
+        <p class="p2">
+          Creators can gain independence through a decentralised digital
+          currency system that is dependent on growing and engaging with the
+          community and also their star power. They own 10-15% of the total
+          value of the tokens minted.
+        </p>
+        <p class="p3">
+          <a href="#" style="color: #2278d4">Learn More</a>
+          <img src="./img/arrowrightblue.svg" alt="" />
+        </p>
+      </div>
+    </section>
+
+    <section class="section2 display-flex">
+      <div class="section2-img">
+        <img src="./img/maskgroup.png" alt="" />
+      </div>
+
+      <div class="section2-content display-flex fd-column">
+        <h2 class="title">What makes us different?</h2>
+        <p class="description">
+          We would only launch tokens with the express permission of the
+          creators.
+        </p>
+        <p class="content-p">
+          There are several thousand celebrities and creators on twitter,
+          tiktok, Instagram and YouTube with followings in the millions who we
+          would be actively engaging before we go viral. <br />
+          <br />
+          We would get them on our platform and they would see the opportunity
+          to create a fan driven digital economy where their digital content can
+          be traded as NFTs and their most loyal fans can have the monetary
+          value of their creator's currency increase significantly as they
+          promote their digital currency across their channels while our native
+          token holders benefit from the Weentar popularity.
+        </p>
+        <p class="p4"></p>
+      </div>
+    </section>
+
+    <section class="section3 display-flex container">
+      <div class="quarters display-flex fd-column">
+        <div class="quarters-iconsdec display-flex">
+          <div class="q-icons display-flex">Q1</div>
+          <div class="q-icon-year display-flex fd-column">
+            <div class="q-icon"></div>
+            <div class="q-year display-flex">2021</div>
+          </div>
+        </div>
+        <div>
+          <ol>
+            <li>Team set-up</li>
+            <li>Launch of informational website</li>
+          </ol>
+        </div>
+      </div>
+      <div class="quarters display-flex fd-column">
+        <div class="quarters-iconsdec display-flex">
+          <div class="q-icons display-flex">Q1</div>
+          <div class="q-icon-year display-flex fd-column">
+            <div class="q-icon"></div>
+            <div class="q-year display-flex">2021</div>
+          </div>
+        </div>
+        <div>
+          <ol>
+            <li>Team set-up</li>
+            <li>Launch of informational website</li>
+          </ol>
         </div>
       </div>
 
-      <div class="first-cards">
-        <div class="card1">
-          <div
-            class="card1-icon"
-            style="box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25)"
-          >
-            <img src="./img/firstcardsicon1.svg" alt="" />
+      <div class="quarters display-flex fd-column">
+        <div class="quarters-iconsdec display-flex">
+          <div class="q-icons display-flex">Q1</div>
+          <div class="q-icon-year display-flex fd-column">
+            <div class="q-icon"></div>
+            <div class="q-year display-flex">2021</div>
           </div>
-
-          <p class="p1">
-            For <span class="underline" style="color: #22a75d"> Creators </span>
-          </p>
-          <p class="p2">
-            Creators can gain independence through a decentralised digital
-            currency system that is dependent on growing and engaging with the
-            community and also their star power. They own 10-15% of the total
-            value of the tokens minted.
-          </p>
-          <p class="p3">
-            <a href="#">Learn More 🡪</a>
-          </p>
         </div>
-
-        <div class="card2">
-          <div
-            class="card2-icon"
-            style="box-shadow: 0px 15px 25px rgba(34, 120, 212, 0.25)"
-          >
-            <img src="./img/firstcardsicon2.svg" alt="" />
-          </div>
-
-          <p class="p1">
-            For <span class="underline" style="color: #2278d4"> Holders </span>
-          </p>
-          <p class="p2">
-            Creators can gain independence through a decentralised digital
-            currency system that is dependent on growing and engaging with the
-            community and also their star power. They own 10-15% of the total
-            value of the tokens minted.
-          </p>
-          <p class="p3">
-            <a href="#" style="color: #2278d4">Learn More</a>
-            <img src="./img/arrowrightblue.svg" alt="" />
-          </p>
+        <div>
+          <ol>
+            <li>Team set-up</li>
+            <li>Launch of informational website</li>
+          </ol>
         </div>
       </div>
 
-      <div class="section2">
-        <div class="section2-img">
-          <img src="./img/maskgroup.png" alt="" />
+      <div class="quarters display-flex fd-column">
+        <div class="quarters-iconsdec display-flex">
+          <div class="q-icons display-flex">Q1</div>
+          <div class="q-icon-year display-flex fd-column">
+            <div class="q-icon"></div>
+            <div class="q-year display-flex">2021</div>
+          </div>
         </div>
-
-        <div class="section2-content">
-          <h2 class="p1">What makes us different?</h2>
-          <p class="p2">
-            We would only launch tokens with the express permission of the
-            creators.
-          </p>
-          <p class="p3">
-            There are several thousand celebrities and creators on twitter,
-            tiktok, Instagram and YouTube with followings in the millions who we
-            would be actively engaging before we go viral. <br />
-            <br />
-            We would get them on our platform and they would see the opportunity
-            to create a fan driven digital economy where their digital content
-            can be traded as NFTs and their most loyal fans can have the
-            monetary value of their creator's currency increase significantly as
-            they promote their digital currency across their channels while our
-            native token holders benefit from the Weentar popularity.
-          </p>
-          <p class="p4"></p>
+        <div>
+          <ol>
+            <li>Team set-up</li>
+            <li>Launch of informational website</li>
+          </ol>
         </div>
       </div>
+    </section>
 
-      <div class="section3">
-        <div class="quarters">
-          <div class="quarters-iconsdec">
-            <div class="q-icons">Q1</div>
-            <div class="q-icon-year">
-              <div class="q-icon"></div>
-              <div class="q-year">2021</div>
-            </div>
-          </div>
-          <div>
-            <ol>
-              <li>Team set-up</li>
-              <li>Launch of informational website</li>
-            </ol>
-          </div>
-        </div>
-        <div class="quarters">
-          <div class="quarters-iconsdec">
-            <div class="q-icons">Q1</div>
-            <div class="q-icon-year">
-              <div class="q-icon"></div>
-              <div class="q-year">2021</div>
-            </div>
-          </div>
-          <div>
-            <ol>
-              <li>Team set-up</li>
-              <li>Launch of informational website</li>
-            </ol>
-          </div>
-        </div>
-        <div class="quarters">
-          <div class="quarters-iconsdec">
-            <div class="q-icons">Q1</div>
-            <div class="q-icon-year">
-              <div class="q-icon"></div>
-              <div class="q-year">2021</div>
-            </div>
-          </div>
-          <div>
-            <ol>
-              <li>Team set-up</li>
-              <li>Launch of informational website</li>
-            </ol>
-          </div>
-        </div>
-        <div class="quarters">
-          <div class="quarters-iconsdec">
-            <div class="q-icons">Q1</div>
-            <div class="q-icon-year">
-              <div class="q-icon"></div>
-              <div class="q-year">2021</div>
-            </div>
-          </div>
-          <div>
-            <ol>
-              <li>Team set-up</li>
-              <li>Launch of informational website</li>
-            </ol>
-          </div>
-        </div>
+    <section class="container display-flex">
+      <div>
+        <h2></h2>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+
       </div>
-    </div>
+      <div></div>
+    </section>
   </body>
 </html>
