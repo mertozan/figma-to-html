@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+.container{
+    width: 1500px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+}
+
+.images:hover{
+    transform: scale(1.1);
+    transition: 0.9s;
+    filter: blur(0);
+}
+
+.images{
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    filter: blur(1.4px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+
+}
+
+.futuristic{
+    background-image: url(./img/futuristic.png);
+    
+}
+
+.food-delivery{
+    background-image: url(./img/food_delivery.png);
+}
+
+.acid-party{
+    background-image: url(./img/acid_party.png);
+}
+
+.nike-airmax{
+    background-image: url(./img/nike_airmax.png);
+}
+
+.tokners{
+    background-image: url(./img/tokners.png);
+}
+
