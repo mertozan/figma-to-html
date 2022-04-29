@@ -13,7 +13,6 @@ body {
   width: 100vw;
 }
 
-
 a {
   text-decoration: none;
   color: white;
@@ -43,13 +42,38 @@ ul {
   text-decoration: underline;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .display-flex {
   display: flex;
+}
+
+.absolute {
+  position: absolute;
 }
 
 .fd-column {
   flex-direction: column;
 }
+
+.fd-row {
+  flex-direction: row;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-1{
+  flex: 1;
+}
+
 
 .title{
   font-style: normal;
@@ -318,25 +342,25 @@ ul {
   color: black;
 }
 
-.section3 div:nth-child(1) .q-icons:nth-child(1),
-.section3 div:nth-child(1) .q-icon:nth-child(1) {
+.quarters:nth-child(1) .q-icons:nth-child(1),
+.quarters:nth-child(1) .q-icon:nth-child(1) {
   background: #22a75d;
   box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
 }
 
-.section3 div:nth-child(2) .q-icons:nth-child(1),
-.section3 div:nth-child(2) .q-icon:nth-child(1) {
+.quarters:nth-child(2) .q-icons:nth-child(1),
+.quarters:nth-child(2) .q-icon:nth-child(1) {
   background: #2278d4;
   box-shadow: 0px 15px 25px rgba(34, 120, 212, 0.25);
 }
 
-.section3 div:nth-child(3) .q-icons:nth-child(1),
-.section3 div:nth-child(3) .q-icon:nth-child(1) {
+.quarters:nth-child(3) .q-icons:nth-child(1),
+.quarters:nth-child(3) .q-icon:nth-child(1) {
   background: #ffd100;
   box-shadow: 0px 15px 25px rgba(255, 209, 0, 0.25);
 }
-.section3 div:nth-child(4) .q-icons:nth-child(1),
-.section3 div:nth-child(4) .q-icon:nth-child(1) {
+.quarters:nth-child(4) .q-icons:nth-child(1),
+.quarters:nth-child(4) .q-icon:nth-child(1) {
   background: #e20613;
   box-shadow: 0px 15px 25px rgba(226, 6, 19, 0.25);
 }
@@ -399,5 +423,21 @@ ul {
 
 .section3 div:nth-child(4) ol li::before {
   color: #e20613;
+}
+
+.second-cards{
+  background-image: url("../img/maskgroup2.png");
+  justify-content: center;
+  align-items: center;
+  height: 1375px;
+}
+
+.second-cards .q-icons{
+  background: #22a75d;
+  box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+}
+
+.second-cards .content div:nth-child(2){
+  padding: 30px 0px;
 }
 
