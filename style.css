@@ -54,7 +54,7 @@ img {
 
 .card {
   text-align: center;
-  
+
   height: 200px;
   width: 300px;
 }
@@ -71,7 +71,6 @@ img {
   filter: blur(0);
   transform: scale(1.1);
   transition: 0.9s;
-  
 }
 
 .image-wrapper {
@@ -80,4 +79,3 @@ img {
   overflow: hidden;
   border-radius: 10px;
 }
-

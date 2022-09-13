@@ -70,19 +70,18 @@ ul {
   align-items: center;
 }
 
-.flex-1{
+.flex-1 {
   flex: 1;
 }
 
-
-.title{
+.title {
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 54px;
 }
 
-.description{
+.description {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -90,7 +89,7 @@ ul {
   opacity: 0.6;
 }
 
-.content-p{
+.content-p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -410,7 +409,7 @@ ul {
 }
 
 .section3 div:nth-child(1) ol li::before {
-  color: #22a75d!important;
+  color: #22a75d !important;
 }
 
 .section3 div:nth-child(2) ol li::before {
@@ -425,19 +424,18 @@ ul {
   color: #e20613;
 }
 
-.second-cards{
+.second-cards {
   background-image: url("../img/maskgroup2.png");
   justify-content: center;
   align-items: center;
   height: 1375px;
 }
 
-.second-cards .q-icons{
+.second-cards .q-icons {
   background: #22a75d;
   box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
 }
 
-.second-cards .content div:nth-child(2){
+.second-cards .content div:nth-child(2) {
   padding: 30px 0px;
 }
-

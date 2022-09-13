@@ -7,11 +7,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background-image: linear-gradient(
-    rgb(0, 0, 0),
-    rgb(13, 13, 13),
-    rgb(51, 51, 51)
-  );
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(13, 13, 13), rgb(51, 51, 51));
   overflow: hidden;
 }
 
@@ -40,7 +36,7 @@ body {
   top: 70px;
   animation: rotate 40s linear infinite alternate forwards;
   animation-delay: 1s;
-  
+
   z-index: 1;
 }
 
@@ -110,10 +106,7 @@ button:active {
   to {
     transform: rotate(70deg) translateY(-200px);
   }
-  
-
 }
-
 
 .for-mobil {
   display: none;
@@ -124,11 +117,7 @@ button:active {
   .shadow,
   .container {
     display: none;
-    background-image: linear-gradient(
-      rgb(0, 0, 0),
-      rgb(13, 13, 13),
-      rgb(51, 51, 51)
-    );
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(13, 13, 13), rgb(51, 51, 51));
   }
   .for-mobil {
     display: flex;
